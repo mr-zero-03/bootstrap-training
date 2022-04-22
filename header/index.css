@@ -1,0 +1,15 @@
+header nav {
+  background: #006b52;
+}
+
+header nav div.dropdown-menu {
+  background: #006b52;
+}
+
+header nav .dropdown-item {
+  color: white;
+}
+
+header nav img#navbar-logo {
+  width: 100px;
+}
