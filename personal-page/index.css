@@ -3,6 +3,11 @@ header nav {
   background: #006b52;
 }
 
+header nav img#navbar-logo {
+  width: 100px;
+}
+
+/* Dropdown Menu */
 header nav div.dropdown-menu {
   background: #006b52;
 }
@@ -11,8 +16,14 @@ header nav .dropdown-item {
   color: white;
 }
 
-header nav img#navbar-logo {
-  width: 100px;
+header nav .dropdown-item:hover {
+  background-color: #014a39;
+  color: white;
+}
+
+header nav .dropdown-item:active {
+  background-color: white;
+  color: black;
 }
 
     /* Main */
