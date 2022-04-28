@@ -55,6 +55,17 @@ main #carousel .overlay .container .row {
   height: 100%;
 }
 
+  /* Hobbies Blogs */
+
+section#hobbies-blogs div.card img {
+  max-height: 20vh;
+  object-fit: cover;
+}
+
+section#hobbies-blogs div.card button {
+  width: 90px;
+}
+
     /* Footer */
 footer {
   background: linear-gradient(90deg, #006b52 40%, #5d24ff);
