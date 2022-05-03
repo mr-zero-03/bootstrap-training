@@ -55,8 +55,25 @@ main #carousel .overlay .container .row {
   height: 100%;
 }
 
-  /* Hobbies Blogs */
+  /* My Proyects */
+section#my-proyects {
+  background-color: #006b52;
+  color: white;
+}
 
+section#my-proyects .img {
+  min-height: 20vh;
+  background-image: url("assets/code.jpg");
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  section#my-proyects .img {
+    min-height: 45vh;
+  }
+}
+
+  /* Hobbies Blogs */
 section#hobbies-blogs div.card img {
   max-height: 20vh;
   object-fit: cover;
