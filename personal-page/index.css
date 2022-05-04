@@ -69,20 +69,20 @@ section#who-am-i .img {
   }
 }
 
-  /* My Proyects */
-section#my-proyects {
+  /* My Projects */
+section#my-projects {
   background-color: #006b52;
   color: white;
 }
 
-section#my-proyects .img {
+section#my-projects .img {
   min-height: 20vh;
   background-image: url("assets/code.jpg");
   background-size: cover;
 }
 
 @media (min-width: 992px) {
-  section#my-proyects .img {
+  section#my-projects .img {
     min-height: 45vh;
   }
 }
