@@ -55,6 +55,20 @@ main #carousel .overlay .container .row {
   height: 100%;
 }
 
+  /* Who am I? */
+section#who-am-i .img {
+  min-height: 30vh;
+  background-image: url("assets/santiago.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 992px) {
+  section#who-am-i .img {
+    min-height: 65vh;
+  }
+}
+
   /* My Proyects */
 section#my-proyects {
   background-color: #006b52;
