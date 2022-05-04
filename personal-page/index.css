@@ -88,6 +88,10 @@ section#my-proyects .img {
 }
 
   /* Hobbies Blogs */
+section#hobbies-blogs abbr {
+  text-decoration: none;
+}
+
 section#hobbies-blogs div.card img {
   max-height: 20vh;
   object-fit: cover;
