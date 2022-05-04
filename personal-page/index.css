@@ -34,7 +34,7 @@ main #carousel {
 
 /* Carousel Imgs */
 main #carousel img {
-  max-height: 70vh;
+  max-height: 100vh;
   object-fit: cover;
   filter: grayscale( 70% );
 }
