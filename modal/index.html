@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Modal</title>
+  </head>
+  <body data-spy="scroll" data-target="#navbar" data-offset="56">
+
+    <!-- Main -->
+    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#info-modal">
+      Launch Info Modal
+    </button>
+    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#form-modal">
+      Launch Form Modal
+    </button>
+    <!-- /Main -->
+
+    <!-- Modals -->
+
+      <!-- Modal Info -->
+      <div class="modal fade" id="info-modal" tabindex="-1" role="dialog" aria-labelledby="info-modal-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="info-modal-title"><b>Modal With Info</b></h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <small>Here your information:</small>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non erat convallis, aliquam tellus eu, ornare tellus. Nam maximus, felis id finibus convallis, purus metus consequat magna, ut dignissim nunc justo ac nibh. Pellentesque mattis finibus urna nec pellentesque. Donec suscipit augue vitae nunc vestibulum, quis dictum turpis imperdiet. Praesent elementum facilisis efficitur. Pellentesque in tincidunt leo, a varius tellus. Curabitur ullamcorper diam enim, sed cursus felis mattis nec.</p>
+              <p>Pellentesque tristique, neque nec fermentum posuere, libero elit suscipit ipsum, et gravida ligula enim id leo. Sed commodo, lorem vel imperdiet pharetra, urna sem tristique augue, non porta nulla diam id justo. Nunc posuere facilisis orci, ut convallis felis posuere vitae. Proin euismod imperdiet eros, sit amet ornare nunc fringilla eu. Nulla facilisi. Integer vehicula facilisis quam a pretium. Sed vulputate lorem nibh, at lacinia odio blandit a. Integer et leo et sapien porta tristique quis eu arcu. Nam commodo mauris id enim pellentesque sagittis. Curabitur eu lacinia ex.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-info" data-dismiss="modal">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Modal Info -->
+
+      <!-- Modal Form -->
+      <div class="modal fade" id="form-modal" tabindex="-1" role="dialog" aria-labelledby="form-modal-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="form-modal-title"><b>Modal With Form</b></h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+
+            <form method="get">
+              <div class="modal-body">
+
+                <div class="form-row">
+                  <div class="form-group col">
+                    <label for="email">Email address</label>
+                    <div class="input-group">
+                      <input type="text" class="form-control" id="email" aria-describedby="email" placeholder="Your email" required>
+                      <div class="input-group-append">
+                        <span class="input-group-text">@example.com</span>
+                      </div>
+                    </div>
+                    <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group col">
+                    <label for="password" required>Password</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">#</span>
+                      </div>
+                      <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox" required>
+                    <label class="form-check-label" for="checkbox">Check me out</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-info">Submit</button>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+      <!-- /Modals Form -->
+
+    <!-- /Modals -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
