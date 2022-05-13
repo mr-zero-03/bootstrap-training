@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Forms</title>
+  </head>
+  <body>
+
+    <!-- Main -->
+    <main>
+      <h1 class="text-center">Forms!</h1> <hr/>
+
+      <!-- Switches -->
+      <section>
+        <h2><a href="https://getbootstrap.com/docs/5.1/forms/checks-radios/" class="text-decoration-none">Switches</a></h2>
+
+        <!-- Using checkbox -->
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+        </div>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+          <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+        </div>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" disabled>
+          <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch checkbox input</label>
+        </div>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckCheckedDisabled" checked disabled>
+          <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch checkbox input</label>
+        </div>
+        <small><a href="https://getbootstrap.com/docs/5.1/forms/checks-radios/#switches">Copied from Bootstrap 5</a></small>
+        <!-- /Using checkbox -->
+
+        <!-- Using radio -->
+        <div class="my-4">
+
+          <div class="form-check form-switch form-check-inline">
+            <input class="form-check-input" type="radio" name="flexRadio" id="flexSwitchRadio1">
+            <label class="form-check-label" for="flexSwitchRadio1">
+              Switch radio
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="flexRadio" id="flexDefaultRadio1" checked>
+            <label class="form-check-label" for="flexDefaultRadio1">
+              Default checked radio
+            </label>
+          </div>
+
+          <br/>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="flexRadio" id="flexDefaultRadio2">
+            <label class="form-check-label" for="flexDefaultRadio2">
+              Default radio
+            </label>
+          </div>
+          <div class="form-check form-switch form-check-inline">
+            <input class="form-check-input" type="radio" name="flexRadio" id="flexSwitchRadio2">
+            <label class="form-check-label" for="flexSwitchRadio2">
+              Switch radio
+            </label>
+          </div>
+        </div>
+        <!-- /Using radio -->
+
+        <!-- Using btn-check -->
+        <div class="mb-1">
+          <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btn-check-outlined">Single toggle</label><br/>
+        </div>
+        <div class="mb-1">
+          <input type="checkbox" class="btn-check" id="btn-check-2-outlined" checked autocomplete="off">
+          <label class="btn btn-outline-secondary" for="btn-check-2-outlined">Checked</label><br/>
+        </div>
+        <div class="mb-1">
+          <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
+          <label class="btn btn-outline-success" for="success-outlined">Checked success radio</label>
+
+          <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+          <label class="btn btn-outline-danger" for="danger-outlined">Danger radio</label><br/>
+        </div>
+
+        <small><a href="https://getbootstrap.com/docs/5.1/forms/checks-radios/#toggle-buttons">Copied from Bootstrap 5</a></small>
+        <!-- /Using btn-check -->
+
+      </section>
+      <hr class="my-5"/>
+      <!-- /Switches -->
+
+      <!-- Input Group -->
+      <section>
+        <h2>Input Group</h2>
+
+        <div class="input-group">
+          <select class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <option value="" selected>Dropdown</option>
+            <option value="1">Action</option>
+            <option value="2">Another action</option>
+            <option value="3">Something else here</option>
+            <option value="4">Separated link</option>
+          </select>
+
+          <input type="text" class="form-control" aria-label="Text input with dropdown button">
+        </div>
+      </section>
+      <hr class="my-5"/>
+      <!-- /Input Group -->
+
+      <!-- Floating Labels -->
+      <section>
+        <h2>Floating Labels</h2>
+
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+
+        <div class="form-floating">
+          <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <label for="floatingSelect">Works with selects</label>
+        </div>
+
+        <small><a href="https://getbootstrap.com/docs/5.1/forms/floating-labels/">Copied from Bootstrap 5</a></small>
+      </section>
+      <hr class="my-5"/>
+      <!-- /Floating Labels -->
+
+      <!-- Layout and Validation -->
+      <section class="mb-5">
+        <h2><a href="https://getbootstrap.com/docs/5.1/forms/layout/" class="text-decoration-none">Layout</a> and <a href="https://getbootstrap.com/docs/5.1/forms/validation/" class="text-decoration-none">Validation</a></h2>
+
+        <div class="container g-3">
+          <form class="needs-validation" novalidate>
+
+            <div class="row">
+              <div class="col">
+                <label for="layoutEmail" class="form-label">Email</label>
+                <input type="email" id="layoutEmail" class="form-control" required>
+              </div>
+              <div class="col">
+                <label for="layoutPassword" class="form-label">Password</label>
+                <input type="password" id="layoutPassword" class="form-control" required>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <label for="layoutAddress1" class="form-label">Adress</label>
+                <input type="text" id="layoutAddress1" class="form-control" placeholder="1234 Main St" required>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <label for="layoutAddress2" class="form-label">Adress 2</label>
+                <input type="text" id="layoutAddress2" class="form-control" placeholder="Apartament, studio, or floor" required>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-7">
+                <label for="layoutCity" class="form-label">City</label>
+                <input type="text" id="layoutCity" class="form-control" required>
+              </div>
+              <div class="col-3">
+                <label for="layoutState" class="form-label">State</label>
+                <select id="layoutState" class="form-select" required>
+                  <option value="" selected>Choose...</option>
+                  <option value="1">...</option>
+                </select>
+              </div>
+              <div class="col-2">
+                <label for="layoutZip" class="form-label">Zip</label>
+                <input type="number" id="layoutZip" class="form-control" required>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12">
+                <button class="btn btn-info" type="submit">Submit form</button>
+              </div>
+            </div>
+
+          </form>
+        </div>
+
+      </section>
+      <!-- /Layout and Validation -->
+
+    </main>
+    <!-- /Main -->
+
+     <script src="index.js"></script>
+     <!-- Separated Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  </body>
+</html>
